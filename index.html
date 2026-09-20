@@ -87,6 +87,33 @@
       text-align: center;
       color: #68738a;
     }
+
+    .project {
+    min-width: 0;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #e3e8f3;
+    border-radius: 14px;
+    }
+
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(min(250px, 100%), 1fr)
+    );
+    gap: 12px;
+    width: 100%;
+    }
+
+    .gallery img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+    }
   </style>
 </head>
 
