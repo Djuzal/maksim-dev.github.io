@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио — Ваше имя</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #243047;
+      background: #f3f6fb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #4d8df7, #7456d8);
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 42px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    main {
+      width: min(1000px, 92%);
+      margin: 35px auto;
+    }
+
+    section {
+      margin-bottom: 28px;
+      padding: 28px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 8px 25px rgba(40, 60, 100, 0.08);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #405fc4;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      padding: 8px 14px;
+      color: #3154b3;
+      background: #e9efff;
+      border-radius: 20px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .project {
+      padding: 20px;
+      border: 1px solid #e3e8f3;
+      border-radius: 14px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #405fc4;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #68738a;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Жуканов Максим</h1>
+    <p>Преподаватель программирования на Roblox/Python и веб дизайна</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>О себе</h2>
+      <p>
+        Я - преподаватель программирования с профильным техническим образованием и опытом работы более 5 лет. Провёл свыше 4 500 занятий по программированию, обучил более 50 учеников в индивидуальном формате.
+В работе с детьми я придерживаюсь принципа самостоятельной практики - считаю, что именно через действие знания закрепляются лучше всего. На занятиях я направляю ученика к решению, помогая ему мыслить и искать ответы самостоятельно, а не просто получать готовый результат.
+Особое внимание уделяю индивидуальному подходу: учитываю интересы, темп и особенности каждого ребёнка. Важно поддерживать увлечения учеников и грамотно знакомить их с миром технологий. Я показываю, что даже сложные задачи можно решать по шагам, и этот процесс может быть интересным и вдохновляющим.
+      </p>
+    </section>
+
+    <section>
+      <h2>Навыки</h2>
+
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">Python</span>
+        <span class="skill">Git</span>
+        <span class="skill">ChatGPT</span>
+        <span class="skill">DeepSeek</span>
+        <span class="skill">Gemeni</span>
+        <span class="skill">Cloude</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Проекты</h2>
+
+      <div class="projects">
+        <article class="project">
+          <h3>Название проекта 1</h3>
+          <p>
+            Кратко опишите проект, его цель и использованные технологии.
+          </p>
+          <a href="#">Посмотреть проект</a>
+        </article>
+
+        <article class="project">
+          <h3>Название проекта 2</h3>
+          <p>
+            Расскажите, какую задачу решает проект и какой вклад вы внесли.
+          </p>
+          <a href="#">Посмотреть проект</a>
+        </article>
+
+        <article class="project">
+          <h3>Название проекта 3</h3>
+          <p>
+            Добавьте ссылку на рабочий сайт, репозиторий или демонстрацию.
+          </p>
+          <a href="#">Посмотреть проект</a>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Максим Жуканов
+  </footer>
+</body>
+</html>
